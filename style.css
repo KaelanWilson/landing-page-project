@@ -6,7 +6,7 @@
     padding: 4px 16px;
 }
 
-.hLinks {
+.h-links {
     display: flex;
     gap: 16px;
 }
@@ -21,7 +21,7 @@ li {
     list-style-type: none;
 }
 
-.hLogo {
+.h-logo {
     color: white;
 }
 
