@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 4px 16px;
+}
+
+.hLinks {
+    display: flex;
+    gap: 16px;
+}
+
+/* remove link underline */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hLogo {
+    color: white;
+}
+
+body {
+    margin: 0;
+}
