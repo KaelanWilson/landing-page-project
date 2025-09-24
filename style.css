@@ -93,6 +93,7 @@ h1 {
     border-radius: 10px;
     width: 150px;
     height: 150px;
+    margin-bottom: 10px;
 }
 
 .subtexts {
@@ -124,6 +125,7 @@ h1 {
     text-align: right;
     font-size: 25px;
     font-weight: 900;
+    padding-bottom: 90px;
 }
 
 .quote-text {
@@ -133,4 +135,28 @@ h1 {
     width: 800px;
     justify-content: center;
     font-style: italic;
+}
+
+.action {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3882f6;
+    margin: 100px;
+    justify-content: space-between;
+    padding: 36px 64px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    font-size: 36px;
+    color: white;
+}
+
+.sign {
+    font-size: 36px;
+    color: white;
 }
