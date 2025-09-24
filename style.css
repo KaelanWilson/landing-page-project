@@ -144,6 +144,7 @@ h1 {
     margin: 100px;
     justify-content: space-between;
     padding: 36px 64px;
+    align-items: center;
 }
 
 .action-text {
@@ -159,4 +160,39 @@ h1 {
 .sign {
     font-size: 36px;
     color: white;
+}
+
+.action-b {
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+    border-color: white;
+    background-color: #3882f6;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 130px;
+}
+
+.hero-b {
+    height: 50px;
+    width: 200px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
